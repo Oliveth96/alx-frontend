@@ -3,21 +3,21 @@ html {
 }
 
 body{
-    background-color: #161616;
-}
-
-a*{
     color: #161616;
 }
 
-.visually-hidden *{
+a{
+    color: #161616;
+}
+
+.visually-hidden {
     display: none;
 }
 
-.card-category *{
+.card-category {
     color:#D73953;
 }
 
-.section-tagline *{
+.section-tagline {
     color: #D73953;
 }
