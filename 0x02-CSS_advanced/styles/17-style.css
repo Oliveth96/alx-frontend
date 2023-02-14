@@ -28,7 +28,7 @@
     --section-title-margin: 0;
     --section-title-color:var(--color-black);
     --section-padding: 5rem 0;
-    --section-heading-padding: 0 0 3rem;
+    --section-header-padding: 0 0 3rem;
     --section-body-padding: 0 0 3rem;
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
@@ -74,7 +74,7 @@ a{
 
 .section-header{
     text-align: var(--section-header-align);
-    padding:var(--section-heading-padding);
+    padding:var(--section-header-padding);
 }
 
 .section-body{
@@ -82,7 +82,7 @@ a{
 }
 
 .section-footer{
-    padding:var(--section-footer-align);
+    padding:var(--section-footer-padding);
     text-align: var(--section-footer-align);
 }
 
