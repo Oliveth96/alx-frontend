@@ -41,7 +41,7 @@
 
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
-    --button-color:color-black;
+    --button-color:var(--color-black);
     --button-border: 0.2rem solid var(--color-primary);
     --button-text-decoration: none;
     --button-font-size: var(--font-size-large);
@@ -257,7 +257,8 @@ ul.row{
     color: var(--button-color);
     text-decoration-style: var(--button-text-decoration);
 }
-.button :hover{
+
+.button:hover{
     color: var(--button-hover-color);
     text-decoration-style: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
