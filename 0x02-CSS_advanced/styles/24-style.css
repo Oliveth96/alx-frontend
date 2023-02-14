@@ -222,7 +222,7 @@ ul.row{
     fill:var(--text-color);
 }
 
-.card-services > .card-title{
+.card-services .card-title{
     margin: 0;
 }
 
@@ -232,7 +232,7 @@ ul.row{
     background-color: var(--color-light-grey);
 }
 
-.card-service a:hover{
+.card-services a:hover{
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration-style: none;
