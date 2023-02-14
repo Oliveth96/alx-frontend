@@ -342,7 +342,7 @@ ul.row{
     background-color: rgba(0,0,0,0.7);
 }
 
-.card-work .card-inner{
+.card-work .card-title{
     text-align: center;
     margin: 0;
     opacity: 0;
